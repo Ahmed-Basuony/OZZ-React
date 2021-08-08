@@ -1,0 +1,37 @@
+/* start footer */
+footer .navbar-brand {
+  color: rgb(196, 195, 195)
+}
+footer {
+  background: #090f1b;
+  color: #ffffffa6;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-self: end;
+}
+footer .social__footer  a{
+color: unset
+}
+/* fontawesome */
+
+footer .social__footer a:nth-child(3) svg[fill] {
+  color: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+/* end footer */

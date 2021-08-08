@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.home h2 {
+    font-size: 3rem;
+    color: #193566;
+}
+.home h2 span {
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+}
+.home div {
+    font-size: 1.4rem;
+    color:#193566;
+}
+.home div a {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+.home div a:hover {
+    font-size: 1.2rem;
+    text-decoration: none;
+}

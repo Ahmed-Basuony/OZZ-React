@@ -1,0 +1,161 @@
+main .header {
+  width: 200px;
+  margin: auto;
+}
+
+main .header img {
+  height: auto;
+  width: 100%;
+}
+
+main .text__welcome {
+  font-size: 1.2rem;
+  color: #193566;
+}
+
+main .text__welcome p:first-child {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+main .text__welcome p:nth-child(2) {
+  font-size: 2rem;
+}
+/* main .social-icons div i {
+  font-size: 38px;
+  padding: 19px;
+  color: #193566;
+  border: 2px solid #eef0f6;
+  border-radius: 50%;
+  box-shadow: -2px -4px 3px 0px rgb(225 225 225 / 26%),
+    4px 4px 3px 0px rgb(88 88 88 / 43%);
+}
+main .social-icons div .facebook__icon {
+  padding: 19px 24px;
+}
+main .social-icons div .google__icon {
+  font-size: 37px;
+} */
+
+main .sing__text {
+  color: #193566;
+}
+main .form input {
+  padding: 26px;
+  border-radius: 25px;
+  background-color: rgba(236, 240, 243, 255);
+  box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.425) inset,
+    5px 4px 3px 0px rgba(88, 88, 88, 0.425) inset;
+}
+
+main .form .btn-submit {
+  width: 50%;
+  display: block;
+  padding: 15px 0;
+  font-weight: 500;
+  border: none;
+  border-radius: 2rem;
+  font-size: 17px;
+  color: #193566;
+  background-color: rgba(236, 240, 243, 255);
+  margin: auto;
+  box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.425),
+    5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+main .form input:focus {
+  border: none;
+  outline: none;
+}
+.social-icons .icon {
+  max-width: 9%;
+}
+main a {
+  text-decoration: none;
+}
+main a:hover {
+  color: unset
+}
+main .forget__pass {
+  color: #193566;
+  text-align: right;
+}
+main .forget__pass:hover {
+  color: #193566;
+}
+main .new__account {
+  color: #193566;
+  width: 175px;
+  text-decoration: none;
+  margin: auto;
+}
+main .new__account:hover {
+  text-decoration: none;
+  color: #193566;
+}
+.invalid__text {
+  color: rgb(179, 3, 3);
+}
+@media (max-width: 768px) {
+  .social-icons .col-3 {
+    max-width: 18%;
+  }
+}
+@media (max-width: 570px) {
+  .social-icons .col-3 {
+    max-width: 24%;
+  }
+  main .header {
+    height: 137px;
+  }
+  main .form input {
+    padding: 26px;
+    border-radius: 25px;
+    background-color: rgba(236, 240, 243, 255);
+    box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.425) inset,
+      5px 4px 3px 0px rgba(88, 88, 88, 0.425) inset;
+  }
+}
+@media (max-width: 361px) {
+  .social-icons .col-3:not(:last-child) {
+    max-width: 20%;
+  }
+  main .social-icons .icon {
+    margin: auto;
+  }
+  main .social-icons div i {
+    font-size: 24px;
+    padding: 16px;
+  }
+  main .social-icons div .facebook__icon {
+    padding: 16px 18px;
+  }
+  main .social-icons div .google__icon {
+    font-size: 24px;
+  }
+}
+@media (max-width: 300px) {
+  .social-icons {
+    margin-right: 19px !important;
+  }
+  .social-icons .col-3:not(:last-child) {
+    max-width: 17%;
+    margin-right: 25px;
+  }
+  main .social-icons div i {
+    font-size: 26px;
+    padding: 15px;
+  }
+  main .social-icons div .facebook__icon {
+    padding: 15px 18px;
+  }
+  main .social-icons div .google__icon {
+    font-size: 25px;
+  }
+}

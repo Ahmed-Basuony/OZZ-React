@@ -1,0 +1,107 @@
+main .header {
+  height: 150px;
+  width: 200px;
+  margin-top: 0;
+  margin: auto;
+}
+main .header img {
+  height: auto;
+  width: 100%;
+}
+main .text__welcome {
+  font-size: 1.2rem;
+  color: #193566;
+}
+main .text__welcome p:first-child {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+main .text__welcome p:nth-child(2) {
+  font-size: 2rem;
+}
+main .social-icons div a {
+  padding: 19px;
+  color: #193566;
+  border: 2px solid #eef0f6;
+  border-radius: 50%;
+  box-shadow: -2px -4px 3px 0px rgb(225 225 225 / 26%),
+    4px 4px 3px 0px rgb(88 88 88 / 43%);
+}
+main .social-icons div a svg {
+  width: 26px;
+  height: 26px;
+}
+main .sing__text {
+  color: #193566;
+  margin-bottom: unset;
+}
+main .form input {
+  padding: 15px;
+  border-radius: 25px;
+  background-color: rgba(236, 240, 243, 255);
+  box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.425) inset,
+    5px 4px 3px 0px rgba(88, 88, 88, 0.425) inset;
+}
+.invalid {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+main .form input.input__name {
+  width: 100%;
+  padding: 16px;
+  outline: none;
+  border: none;
+}
+main .form input.input__name:focus {
+  outline: none;
+  border: none;
+}
+main .form .btn-submit {
+  width: 50%;
+  display: block;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 2rem;
+  font-size: 17px;
+  color: #193566;
+  background-color: rgba(236, 240, 243, 255);
+  margin: auto;
+  box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.425),
+    5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.social-icons .icon {
+  max-width: 9%;
+}
+main .form input:focus {
+  border: none;
+  outline: none;
+}
+main .forget__pass {
+  color: #193566;
+}
+main .forget__pass:hover {
+  text-decoration: none;
+  color: #193566;
+}
+main .new__account {
+  color: #193566;
+  width: 175px;
+  margin: auto;
+}
+main .new__account:hover {
+  text-decoration: none;
+  color: #193566;
+}
+@media screen and (max-width: 540px) {
+  .social-icons .icon {
+    max-width: 25%;
+  }
+}
